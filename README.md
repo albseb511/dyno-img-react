@@ -1,6 +1,9 @@
 # dyno-img-react
 
 > a versatile react img component
+> set low quality image
+> set high quality image
+> lazy loading 
 
 [![NPM](https://img.shields.io/npm/v/dyno-img-react.svg)](https://www.npmjs.com/package/dyno-img-react) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
