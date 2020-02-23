@@ -15,12 +15,18 @@ npm install --save dyno-img-react
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'dyno-img-react'
+import DynoImg from 'dyno-img-react'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <DynoImg 
+        src={"low-quality-img-url"}
+        srcHigh={"high-quality-img-url"}
+        alt={"alternate"}
+        // rootMargin defines the Margin around the root. The hq image will get loaded at the margin
+        rootMargin={"10%"}
+      />
     )
   }
 }
