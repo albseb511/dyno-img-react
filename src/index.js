@@ -26,10 +26,11 @@ class DynoImg extends React.Component {
     imageObserver.observe(this.element)
   }
   render() {
-    const {alt} = this.props
+    const {alt, style, className} = this.props
     return (
       <img
-        style={{marginTop: '1000px', marginBottom: '1000px'}}
+        className={className}
+        style={{...style}}
         src={this.state.source}
         alt={alt}
         ref={el => { this.element = el }}
@@ -42,7 +43,9 @@ DynoImg.propTypes = {
   alt: PropTypes.string,
   src: PropTypes.string,
   srcHigh: PropTypes.string,
-  rootMargin: PropTypes.string
+  rootMargin: PropTypes.string,
+  className: PropTypes.string,
+  style: PropTypes.object
 }
 
 export default DynoImg
