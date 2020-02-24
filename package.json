@@ -1,6 +1,6 @@
 {
   "name": "dyno-img-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a versatile react img component",
   "author": "albseb511",
   "license": "MIT",
@@ -57,5 +57,11 @@
   },
   "files": [
     "dist"
+  ],
+  "keywords": [
+    "image",
+    "react",
+    "lazy",
+    "lazy loading"
   ]
 }

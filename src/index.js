@@ -29,7 +29,7 @@ class DynoImg extends React.Component {
     const {alt, style, className} = this.props
     return (
       <img
-        className={className}
+        className={ className }
         style={{...style}}
         src={this.state.source}
         alt={alt}
